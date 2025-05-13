@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/Sanpham.css">
+    <title>Về Elysia Store</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper">
+        <header class="header">
+            <nav class="container">
+                <ul class="main-menu">
+                    <li class="logo"><a href="index.html"><img src="images/logo, banner/tnp.png" alt="logo TNP Sports"></a></li>
+                    <li class="namewebsite">TNP Sports</li>
+                    <li><a href="index.html">Trang Chủ</a></li>
+                    <li class="has-submenu">
+                        <a href="">Chính Sách <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="chinhsachbaomat.html">Chính Sách Bảo Mật</a></li>
+                            <li><a href="chinhsachdoitra.html">Chính Sách Đổi Trả</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="">Sản Phẩm <i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="Aobongda.html">Áo Bóng Đá</a></li>
+                            <li><a href="Giaybongda.html">Giày Bóng Đá</a></li>
+                            <li><a href="">Bóng Đá</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-icons">
+                        <li><a href="Search.html" aria-label="Tìm kiếm"><i class="fas fa-search"></i></a></li>
+                        <li><a href="DangNhap.html" aria-label="Tài khoản"><i class="fas fa-user"></i></a></li>
+                        <li><a href="" aria-label="Giỏ hàng"><i class="fas fa-shopping-cart"></i></a></li>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    </div>
+<button class="circle-button to-top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+      
+      <!-- Nút Chat -->
+      <button class="circle-button chat-box" onclick="toggleChat()">
+        <i class="fas fa-comment-dots"></i>
+      </button>
+      
+      <!-- Khung Chat -->
+      <div class="chat-window" id="chatWindow">
+          <div class="chat-header">
+              <i class="fas fa-comments mr-2"></i> Chat Box
+              <button class="close-chat" onclick="toggleChat()">
+                  <i class="fas fa-times"></i>
+              </button>
+          </div>
+          <div class="chat-body" id="chatBody">
+              <div class="message received">
+                  <p>Chào bạn! Có gì cần hỗ trợ không?</p>
+              </div>
+          </div>
+          <div class="chat-input">
+              <input type="text" id="chatMessage" placeholder="Nhập tin nhắn...">
+              <button onclick="sendMessage()">
+                  <i class="fas fa-paper-plane"></i>
+              </button>
+          </div>
+      </div>
+    <hr>
+
+ <div class="sanpham">
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://pos.nvncdn.com/6a2bd9-54198/ps/20240329_Pk3FCV0udk.jpeg" alt="Nike Air Tezaz Superfly 9 Elite">
+            </div>
+            <div class="tenanh">Nike Air Tezaz Superfly 9</div>
+            <div class="giatienb">1.150.000 VNĐ</div>
+            <div class="giatien">650.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://salt.tikicdn.com/cache/w1200/ts/product/d3/2b/ff/a47d7bb02ece91ddea2820c6ec96cac6.jpg" alt="Ourdoor Chuteira Cleat TFFG Unisex">
+            </div>
+            <div class="tenanh">Ourdoor Chuteira Cleat </div>
+            <div class="giatienb">1.550.000 VNĐ</div>
+            <div class="giatien">858.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/100/108/842/products/25040104.jpg?v=1743504257493" alt="Nike Phantom GX2 Elite">
+            </div>
+            <div class="tenanh">Nike Phantom GX2 Elite </div>
+            <div class="giatienb">1.900.000 VNĐ</div>
+            <div class="giatien">900.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/100/108/842/products/beck-58-b912f6cb-dae6-4d3c-b7f8-45aae76d9536.jpg?v=1743570086530" alt="Adidas Predator 25 Pro">
+            </div>
+            <div class="tenanh">Adidas Predator 25 Pro Đen Đỏ </div>
+            <div class="giatienb">1.870.000 VNĐ</div>
+            <div class="giatien">810.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/100/108/842/products/25040102.jpg?v=1743564765533" alt="Nike Mercurial Vapor 16 Airmax95">
+            </div>
+            <div class="tenanh">Nike Mercurial Vapor 16 </div>
+            <div class="giatienb">1.150.000 VNĐ</div>
+            <div class="giatien">870.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1" >
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/458/331/products/hologram-1744111362243.jpg?v=1744111366803" alt="Nike Vapor 16 Hologram">
+            </div>
+            <div class="tenanh">Nike Vapor 16 Hologram </div>
+            <div class="giatienb">1.999.999 VNĐ</div>
+            <div class="giatien">790.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/458/331/products/xanh-co-vit-1744087118717.jpg?v=1744087122430" alt="Nike Mercurial Vapor 16 Xanh Cổ Vịt">
+            </div>
+            <div class="tenanh">Nike Vapor 16 Elite Xanh </div>
+            <div class="giatienb">1.999.999 VNĐ</div>
+            <div class="giatien">1.150.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    
+        <div class="tien1">
+            <div class="anh">
+                <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/458/331/products/xanh-bien-vach-vang-1744086937016.jpg?v=1744086941427" alt="Adidas F50 Elite Xanh Biển">
+            </div>
+            <div class="tenanh">Adidas F50 Elite Xanh Biển</div>
+            <div class="giatienb">1.999.999 VNĐ</div>
+            <div class="giatien">990.000 VNĐ</div>
+            <button onclick="alert('Chưa có chức năng này')" class="buy">Mua ngay</button>
+        </div>
+    </div>
+    <footer id="wrapper-footer">
+            <div class="footer-top">
+                <ul class="Main-inf">
+                    <h4>ĐỊA CHỈ</h4>
+                    <li><a href="https://tdmu.edu.vn/">Địa chỉ trực tiếp</a></li>
+                </ul>
+                <ul class="Main-inf">
+                    <h4 id="policy">CHÍNH SÁCH</h4>
+                    <li><a href="chinhsachbaomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="#">Chính sách đổi trả</a></li>
+                </ul>
+                <ul class="Main-inf">
+                    <h4>CHĂM SÓC KHÁCH HÀNG</h4>
+                    <li><a href="#">tienmn@tnps.com</a></li>
+                    <li><a href="#">0987215462</a></li>
+                </ul>
+                <ul class="Main-inf">
+                    <h4>Theo chúng tôi</h4>
+                    <div class="linked-icon">
+                        <li><a class="fb" href="https://www.facebook.com/gustang.060425"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="pin" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a class="yt" href="#"><i class="fab fa-youtube-square"></i></a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="copy">
+                <a href="#">Copyright © 2025 TNP Sports all rights reserved.</a>
+            </div>
+        </footer>
+    <script src="Javascripts/main.js"></script>
+</body>
+</html>
